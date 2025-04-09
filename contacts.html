@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GlobalDiary</title>
+    <link rel="icon" type="image/png" href="images/icone.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Global<span>Dairy</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="homepage.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blogs.html" class="nav-link">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeri.html" class="nav-link">Galery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="flex" id="contactpage">
+        <div class="container">
+            <div class="header-title">
+                <h1>Contact</h1>
+                <p>"Faqja jonë e kontaktit është gjithçka që ju nevojitet për të lidhur me ne. 
+                    Këtu mund të dërgoni pyetje, komente ose kërkesa dhe ekipi ynë do t'ju përgjigjet me shpejtësi dhe profesionalizëm. 
+                    Ne jemi të gatshëm të ofrojmë mbështetje, këshilla udhëtimi dhe informacion të dobishëm për t'ju ndihmuar në çdo hap të udhëtimit tuaj. 
+                    Mos hezitoni të na kontaktoni për çdo informacion që mund të keni nevojë – ne jemi këtu për t'ju bërë udhëtimet tuaja sa më të lehta dhe të këndshme!"
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Rrini ne kontakt me ne </span>
+                <h2 class="lg-title">Na kontaktoni</h2>
+            </div>
+            <div class="contact-row">
+                <div class="contact-left">
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" id="name" class="form-control" placeholder="Your name">
+                        <input type="email" id="email" class="form-control" placeholder="Your email">
+                        <textarea rows="5" id="message" class="form-control" placeholder="Your message" style="resize:none;"></textarea>
+                       <div id="contact-message" style="display:none;"></div>
+                        <input type="submit" class="btn" value="Dergo nje mesazh" id="sendMessage">
+                    </form>
+                    
+                </div>
+                <div class="contact-right my-2">
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-phone-alt"></i>
+                        </span>
+                        <div>
+                            <span>Phone</span>
+                            <p class="text">+35568.......</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-map-marked-alt"></i>
+                        </span>
+                        <div>
+                            <span>Adress</span>
+                            <p class="text"> Rruga Petronini Luarasi </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <div>
+                            <span>Message</span>
+                            <p class="text"> info@globaldiary.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Global<span>Diary</span>
+                </a>
+                <p class="text">"GlobalDiary është burimi juaj kryesor për udhëzime të detajuara dhe inspirim për çdo udhëtim. 
+                    Eksploroni destinacione unike, mësoni nga përvojat e udhëtarëve dhe zbuloni mundësi për aventura të paharrueshme.
+                    Na ndiqni në rrjetet sociale për të qëndruar të informuar me risi te reja."</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/?lang=en">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/en/">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="https://sq.wikipedia.org/wiki/Tajlanda">Tailande</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Australia">Australi</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Mald">Maldive</a></li>
+                    <li><a href="https://sq.wikipedia.org/wiki/Zvic">Zvicer</a></li>
+                    <li><a href="https://sq.wikipedia.org/wiki/Gjermania">Gjermani</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form name="myForm" class="flex" id="subscribeForm">
+                    <input type="email" placeholder="Enter Email" class="form-control" id="email">
+                    <div class="message" id="message"></div>
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="footer-item">
+            <p class="rights">&copy; 2024 GlobalDiary. All rights reserved.</p>
+        </div>           
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
